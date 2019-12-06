@@ -5,6 +5,9 @@ import PhoneDirectory from './PhoneDirectory';
 import * as serviceWorker from './serviceWorker';
 import AddSubscriber from './AddSubscriber';
 import './common/common.css';
+
+//ReactDOM.render(<AddSubscriber />, document.getElementById('root'));
+
 ReactDOM.render(<PhoneDirectory />, document.getElementById('root'));
 
 
